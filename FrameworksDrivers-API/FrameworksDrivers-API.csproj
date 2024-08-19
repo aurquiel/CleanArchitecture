@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>FrameworksDrivers_API</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationLayer\ApplicationLayer.csproj" />
+    <ProjectReference Include="..\EnterpriseLayer\EnterpriseLayer.csproj" />
+    <ProjectReference Include="..\InterfaceAdapter-Repository\InterfaceAdapter-Repository.csproj" />
+    <ProjectReference Include="..\InterfaceAdapters-Data\InterfaceAdapters-Data.csproj" />
+    <ProjectReference Include="..\InterfaceAdapters-Mappers\InterfaceAdapters-Mappers.csproj" />
+    <ProjectReference Include="..\InterfaceAdapters-Presenters\InterfaceAdapters-Presenters.csproj" />
+  </ItemGroup>
+
+</Project>

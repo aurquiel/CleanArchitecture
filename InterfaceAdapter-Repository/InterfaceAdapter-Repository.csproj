@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>InterfaceAdapter_Repository</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApplicationLayer\ApplicationLayer.csproj" />
+    <ProjectReference Include="..\InterfaceAdapters-Data\InterfaceAdapters-Data.csproj" />
+    <ProjectReference Include="..\InterfaceAdpaters-Models\InterfaceAdpaters-Models.csproj" />
+  </ItemGroup>
+
+</Project>

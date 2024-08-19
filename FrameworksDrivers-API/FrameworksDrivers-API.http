@@ -1,0 +1,6 @@
+@FrameworksDrivers_API_HostAddress = http://localhost:5125
+
+GET {{FrameworksDrivers_API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
